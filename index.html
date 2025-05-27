@@ -8,12 +8,14 @@
 </head>
 <body >
     
+    <img src="media/logo.jpg" alt="Logo do evento">
+
     <section>
         <h1>Sobre o evento</h1><br>
-        <h4>O TechFuture Summit é um evento feito com <br> orgulho para programadores e designers <br>
+        <p>O TechFuture Summit é um evento feito com <br> orgulho para programadores e designers <br>
         do Centro Universitário Jorge Amado <br>para discutirem sobre práticas de programação <br>front-end no que
         se diz respeito a discussão sobre boas práticas <br>para fornecer melhorias na acessibilidade <br>e na experiência
-        do usuário final. <br>
+        do usuário final.</p> <br>
         <h3>Data do evento: 16/09/2025 das 15:00 até as 18:00.</h3><br>
         <h3>Local do evento: Auditório Zélia Gattai, Centro Universitário Jorge Amado, Campus Paralela.</h3></h4>
     
@@ -22,35 +24,47 @@
    
     <section>
         <h1>Palestrantes</h1><br>
+        <img src="/media/palestrante1.avif" alt="Maria acordando para ir trabalhar." height="150" width="200">
+        <img src="/media/palestrante1-1.avif" alt="Maria animada para o encontro." height="150" width="200">
+        <img src="/media/palestrante1-2.png" alt="Maria depois de um sucesso no commit." height="150" width="200"><br>
 
         <h3>Maria Joaquina de Amaral Pereira Góes</h3><br>
-        <h4>Graduada em Ciências da Computação na Unijorge (2004),<br> Mestrado em Engenharia de Sistemas na USP (2007) e <br> 
-            Doutorado em Gestão da Informação na Universidade de Yale <br> (2011). Também possi Pós-doutorado em Sistemas e <br>
+            <p>Graduada em Ciências da Computação na Unijorge (2004),<br> Mestrado em Engenharia de Sistemas na USP (2007) e <br> 
+            Doutorado em Gestão da Informação na Universidade de Yale <br> (2011). Também possui Pós-doutorado em Sistemas e <br>
             Design na Universidade de Leeds (2015). É <br> muito conhecida em desenvolver soluções em design para aplicações, <br>
-            tanto web como em mobile como CEO da <br> Viver Soluções em Software e coparticipante em <br> desenvolvimentos de APIs.</h4><br>
+            tanto web como em mobile como CEO da <br> Viver Soluções em Software e coparticipante em <br> desenvolvimentos de APIs.</p><br>
+            
+        <img src="media/palestrante2.jpg" alt="Jim caminhando focado para os sucesso." height="150" width="150">    
+        <img src="media/palestrante2-1.png" alt="Jim compenetrado" height="150" width="150">   
+        <img src="media/palestrante2-2.png" alt="Jim não satisfeito com resultados da sua solução em UX." height="150" width="150"><br>   
         <h3>Jim Po Lau</h3><br>
-        <h4>Graduado em Engenharia de Software na Universidade de <br> Pequim (1998), Mestrado na Universidade de Princeton <br>
+        
+        <p>Graduado em Engenharia de Software na Universidade de <br> Pequim (1998), Mestrado na Universidade de Princeton <br>
             em Sistemas Ubíquos (2002), Doutorado em Sistemas e <br> Design na Universidade de Oxford (2005) e professor <br>
-            honorário na Unijorge (2025), é um dos <br> grandes expoentes em resoluções de UX/UI <br> da atualidade.  </h4><br>
+            honorário na Unijorge (2025), é um dos <br> grandes expoentes em resoluções de UX/UI <br> da atualidade.  </p><br>
+        
+        <img src="media/palestrante3.jpeg" alt="Orlando caminhando na praia." height="150" width="150">
+        <img src="media/palestrante3-1.jpeg" alt="Orlando é adepto aos esportes marinhos." height="150" width="90">
+        <img src="media/palestrante3-2.jpeg" alt="Orlando se preparando para dar um commit fora da área de teste." height="150" width="150"><br>
         <h3>Orlando Gaspar Zaratrusta</h3><br>
-        <h4>Graduado em Sistemas de Informação na UFCE (2010), <br> Mestrado em Design UX na Universidade de Yale (2015) e <br>
+        <p>Graduado em Sistemas de Informação na UFCE (2010), <br> Mestrado em Design UX na Universidade de Yale (2015) e <br>
             Doutorado em Designs Responsivos na Universidade <br> de Toronto (2019). Atualmente é CEO da Gaspar Soluções e <br>
-            desenvolve soluções de UX/UI em diversos projetos <br> de APIs voltados para auto-ajuste e responsividade.</h4><br>
+            desenvolve soluções de UX/UI em diversos projetos <br> de APIs voltados para auto-ajuste e responsividade.</p><br>
 
     </section><br><br>
     
     <section>
-        <form action="" method="post">
+        <form action="https://api.sheetmonkey.io/form/7Yq43ZsMji5cb6THGpo31W" method="post">
             <h1>Formulário para inscrição</h1><br>
             <fieldset>
                 <h2>
                     Dados pessoais
                 </h2>
                 <label for="nomec">Nome completo:</label>
-                <input type="text" id="nomec" value="Dino da Silva Sauro">
+                <input type="text" id="nomec" value="Dino da Silva Sauro" required>
                 <input type="submit" id="nomec" value="Confirmar"><br>
                 <label for="email">E-mail:</label>
-                <input type="email" id="email" value="dinosilvasauro@gmail.com">
+                <input type="email" id="email" value="dinosilvasauro@gmail.com" required>
                 <input type="submit" id="nomec" value="Confirmar">
 
 
@@ -61,13 +75,13 @@
                 </h2><br>
                 
                 <h3><p>Em qual modalidade de evento deseja ingressar?</p></h3><br>
-                <input type="radio" id="presenc" name="escmod" value="Presencial">
+                <input type="radio" id="presenc" name="escmod" value="Presencial" required>
                 <label for="tipoing">Presencial</label> 
-                <input type="radio" id="online" name="escmod" value="On-line">
+                <input type="radio" id="online" name="escmod" value="On-line" required>
                 <label for="tipoing">On-line</label> <br>
 
                 <h3><p>Você concorda com os termos e normas do evento?</p></h3><br>
-                <input type="checkbox" name="concordo" id="concordo" value="Sim">
+                <input type="checkbox" name="concordo" id="concordo" value="Sim" required>
                 <label for="concordo">Sim, eu li os termos e concordo com tudo o que está escrito nele.</label>
 
             </fieldset>

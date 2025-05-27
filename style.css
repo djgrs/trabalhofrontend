@@ -1,3 +1,35 @@
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    background: #aab7e2;
+    opacity: inherit;
+}
+
 body {
     text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+
 }
