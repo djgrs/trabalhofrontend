@@ -3,22 +3,58 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    background: #aab7e2;
+    background: #98c1ff;
     opacity: inherit;
+    
+}
+
+@media (max-width: 768px) {
+  /* Estilos para telas menores ou iguais a 768px */
+  body {
+    font-size: 16px;
+  }
+  .container {
+    width: 100%; /* O container se adapta à largura total da tela */
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Estilos para telas entre 769 e 1024 pixels */
+  .nav {
+    display: flex; /* Exibe o menu em linha para tablets */
+  }
+}
+
+@media (min-width: 1025px) {
+  /* Estilos para telas maiores que 1024 pixels */
+  body {
+    font-size: 18px;
+  }
 }
 
 body {
     text-align: center;
+    text-size-adjust: 
 }
 
 p {
     font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    /*position: relative; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(0%, 0%);*/
 }
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
 
 }
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
 h3 {
     font-family: Arial, Helvetica, sans-serif;
 
@@ -33,3 +69,29 @@ label {
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
+.botao {
+    border: solid 2px darkblue;
+    border-radius: 5px;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+
+}
+
+.botao:hover {
+    background-color: cornflowerblue;
+    color: aquamarine;
+    transform: scale(1.1);
+}
+
+img.imagem {
+  transition: all 0.3s ease-in-out;
+}
+
+img.imagem:hover {
+  transform: scale(1.8);
+  box-shadow: 0 0 10px rgba(74, 148, 218, 0.5);
+}
+
+section.form {
+    text-align: center;
+    scroll-padding: ;
