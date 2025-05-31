@@ -8,11 +8,11 @@
 </head>
 <body >
     
-    <section class="menu">
-        <table>
-            <tr>Sobre o evento  </tr>
-            <tr>Palestrantes  </tr>
-            <tr>Formulário para inscrição</tr>
+    <section class="menu" id="home">
+        <table class="tabmenu">
+            <tr class="about transf"> <a href="index.html#sobre"> Sobre o evento </a></tr>
+            <tr class="pal transf"> <a href="index.html#palestrantes"> Palestrantes </a></tr>
+            <tr class="form transf"> <a href="index.html#formulario"> Formulário para inscrição </a></tr>
         </table>
     </section>
 
@@ -20,19 +20,20 @@
     <img src="media/logo.jpg" alt="Logo do evento" ><br><br><br><br><br><br>
 
     <section>
-        <h1>Sobre o evento</h1><br>
+        <div id="sobre"><h1>Sobre o evento</h1><br></div>
         <p>O TechFuture Summit é um evento feito com orgulho para programadores e designers
         do Centro Universitário Jorge Amado com o objetivo de discutirem sobre práticas de programação front-end no que
         se diz respeito a discussão sobre boas práticas para fornecer melhorias na acessibilidade e na experiência
         do usuário final.</p> <br>
         <h3>Data do evento: 16/09/2025 das 15:00 até as 18:00.</h3><br>
-        <h3>Local do evento: Auditório Zélia Gattai, Centro Universitário Jorge Amado, Campus Paralela.</h3></h4>
+        <h3>Local do evento: Auditório Zélia Gattai, Centro Universitário Jorge Amado, Campus Paralela.</h3></h4><br>
+        <h3><a href="index.html#home"><div id="voltar">Voltar</div></a></h3>
     
     
     </section><br><br>
    
     <section>
-        <h1>Palestrantes</h1><br>
+        <div id="palestrantes"><h1>Palestrantes</h1><br></div>
         <img src="/media/palestrante1.avif" alt="Maria acordando para ir trabalhar." height="150" width="200" class="imagem">
         <img src="/media/palestrante1-1.avif" alt="Maria animada para o encontro." height="150" width="200" class="imagem">
         <img src="/media/palestrante1-2.png" alt="Maria depois de um sucesso no commit." height="150" width="200" class="imagem"><br>
@@ -59,10 +60,11 @@
         <p>Graduado em Sistemas de Informação na UFCE (2010), Mestrado em Design UX na Universidade de Yale (2015) e
             Doutorado em Designs Responsivos na Universidade de Toronto (2019). Atualmente é CEO da Gaspar Soluções e
             desenvolve soluções de UX/UI em diversos projetos de APIs voltados para auto-ajuste e responsividade.</p><br>
-
+        <h3><a href="index.html#home"><div id="voltar">Voltar</div></a></h3>
     </section><br><br>
     
-    <section class="form">
+    
+    <div id="formulario"><section class="form">
         <form action="https://api.sheetmonkey.io/form/7Yq43ZsMji5cb6THGpo31W" method="post">
             <h1>Formulário para inscrição</h1><br>
             <fieldset>
@@ -98,9 +100,10 @@
                 <input type="submit" value="Confirmar" class="botao">
             </fieldset>
         </form> <br><br>
-    
-    </section>
+        <h3><a href="index.html#home"><div id="voltar">Voltar</div></a></h3>
+    </section></div>
     
 
-</body>
+</body> <br><br>
+<footer><h6>Designado por: Leandro Soluções em Design para Negócios 2025</h6></footer>
 </html>
