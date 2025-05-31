@@ -83,24 +83,52 @@ section {
   font-weight: normal; 
 }
 
-table.tabmenu {
+nav {
+  display: flex;
+  justify-content: space-around; /* Espaço entre os itens */
+  align-items: center; /* Alinha verticalmente ao centro */
+  background-color: #98c1ffc2;; /* Cor de fundo (opcional) */
+  padding: 10px; /* Espaçamento interno */
+}
+
+nav ul {
+  list-style: none; /* Remove marcadores da lista */
+  padding: 0; /* Remove o espaçamento padrão da lista */
+  margin: 0; /* Remove a margem padrão da lista */
+}
+
+nav ul li {
+  display: inline-block; /* Permite que os itens da lista fiquem lado a lado */
   font-family: Arial, Helvetica, sans-serif;
-  background-color: pink
-  
+}
+
+nav ul li a {
+  color: rgb(0, 0, 0); /* Cor do texto dos links */
+  text-decoration: none; /* Remove sublinhado dos links */
+  padding: 10px 20px; /* Espaçamento interno dos links */
+  display: block; /* Permite que o espaçamento interno dos links seja respeitado */
+  border-radius: 8px;
+  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+nav ul li a:hover {
+  background-color: #1b77f0b2; /* Cor de fundo ao passar o mouse */
+  border-radius: 18px;
+  transform: scale(1.2)
 }
 
 
 .botao {
     border: solid 2px darkblue;
     border-radius: 5px;
-    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    
 
 }
 
 .botao:hover {
     background-color: cornflowerblue;
     color: aquamarine;
-    transform: scale(1.1);
+    
 }
 
 img.imagem {
@@ -118,8 +146,20 @@ section.form {
 }
 
 div#voltar {
-  padding: 20px;
+  padding: 10px 20px;
+  display: block;
   background-color: #98c1ff;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  padding: 0;
+  margin: 0;
+
+}
+
+div#voltar:hover {
+  transform: scale(1.2);
+  
 }
 
 footer {
